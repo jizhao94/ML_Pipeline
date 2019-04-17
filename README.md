@@ -41,8 +41,12 @@ Use this function to discretize the variables 'age', 'MonthlyIncome', and ''Revo
 <br>
 which will be used as features in the machine learning model
 
-## Part 9. Create Binary on Label
-Write the function to convert the label (variable 'SeriousDlqin2yrs') to a binary variable
+## Part 9. Create Binary on Zipcode
+Write the function to convert the variable Zipcode to a binary variable
+<br>
+Knowing that in our dataset, zipcodes '60637' and '60629' refer to the neighborhoods in the South Side of the City of Chicago,
+<br>
+a binary variable is created to indicate if this person lives in the South Side(indicated by 1) or not (indicated by 0)
 
 ## Part 10. Decision Tree Classifier
 Build the decision tree model using the DecisionTreeClassifier of sklearn package,
