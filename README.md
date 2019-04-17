@@ -1,5 +1,5 @@
 # ML_Pipeline
-Please refer to the Jupyter Notebook MLHW2.ipynb
+For the results of running the codes, please refer to the Jupyter Notebook MLHW2.ipynb
 
 ## Part 1. Import Packages
 pandas, sklearn, and matplotlib are imported
