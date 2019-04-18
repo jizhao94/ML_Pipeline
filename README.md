@@ -3,6 +3,8 @@ For the results of running the codes, please refer to the Jupyter Notebook MLHW2
 
 ## Part 1. Import Packages
 pandas, sklearn, and matplotlib are imported
+<br>
+Also, the pipeline document 'hw2_pipeline.py', which contains the discretization and categorization functions, will be imported
 
 ## Part 2. Import Data
 Import the csv file 'credit-data.csv'
@@ -29,7 +31,7 @@ and between 'NumberOfTime30-59DaysPastDueNotWorse' and 'NumberOfTime60-89DaysPas
 Fill in each NA value with the mean of the variable that it belongs to
 
 ## Part 8. Discretize Continuous Variables
-Write the function to discretize continuous variables, cutting them into three parts: which are
+Apply the function that discretizes continuous variables, cutting them into three parts: which are
 <br>
 I. between the minimum value and the 25% quantile, represented by integer 0
 <br>
@@ -42,7 +44,7 @@ Use this function to discretize the variables 'age', 'MonthlyIncome', and ''Revo
 which will be used as features in the machine learning model
 
 ## Part 9. Create Binary on Zipcode
-Write the function to convert the variable Zipcode to a binary variable
+Apply the function that converts the variable Zipcode to a binary variable
 <br>
 Knowing that in our dataset, zipcodes '60637' and '60629' refer to the neighborhoods in the South Side of the City of Chicago,
 <br>
